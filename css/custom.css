@@ -1,0 +1,25 @@
+@import "bootstrap/bootstrap.min.css";
+@import "bootstrap/bootstrap-theme.css";
+@import "bootstrap/bootstrap-select.css";
+@import "bootstrap/bootstrap-datetimepicker.min.css";
+@import "fonts.css";
+@import "plugins-reset.css";
+@import "skpdi.css";
+
+html {
+    font-size: 10px;
+}
+
+html, body {
+    height: 100%;
+    background-color: #eff0f3;
+}
+
+body {
+    position: relative;
+    padding-top: 86px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #232931;
+}

@@ -1,0 +1,251 @@
+.navbar-nav-main.nav > li {
+    text-transform: none;
+}
+
+.navbar-nav-main.nav > li > a {
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.nav > li {
+    text-transform: uppercase;
+}
+
+.nav > li > a {
+    padding: 17px 15px;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    background-color: transparent;
+}
+
+.nav-tabs {
+    display: inline-block;
+    vertical-align: middle;
+    border-bottom: none;
+}
+
+.nav-tabs > li {
+    text-transform: none;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-tabs > li.active {
+    border-bottom: 2px solid #83b3d8;
+}
+
+.nav-tabs > li > a {
+    margin-right: 0;
+    border: none;
+    border-radius: 0;
+}
+
+.nav-tabs > li > a:hover {
+    border-color: transparent;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-brand {
+    font-size: 2.2rem;
+    height: auto;
+    padding: 5px 15px;
+}
+
+.navbar-brand > img {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+    padding-right: 20px;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+    z-index: auto;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.panel {
+    background-color: transparent;
+    border: transparent;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.panel-heading {
+    padding: 20px 15px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.panel-group {
+    box-shadow: 0 14px 29px rgba(7, 12, 27, 0.3);
+}
+
+
+.panel-group .panel {
+    border-radius: 0;
+}
+
+.panel-group .panel + .panel {
+    margin-top: 0;
+}
+
+.panel-group .panel-heading + .panel-collapse > .panel-body {
+    border-top: none;
+}
+
+/* panels */
+.panel-default > .panel-heading {
+    background-color: rgba(4, 4, 16, 0.9);
+    padding: 1.7rem 2.5rem;
+    color: #fff;
+}
+
+.panel-default .panel-collapse {
+    border-top: 1px solid #516e7f;
+    background-color: rgba(22, 44, 58, 0.95);
+    color: #ddd;
+}
+
+.panel-default .panel-heading h4 {
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.panel-default .panel-heading .close {
+    float: right;
+    opacity: 1;
+}
+
+.panel-default .panel-heading .close:hover {
+    opacity: 0.5;
+}
+
+/* navbar */
+.navbar-inverse {
+    background: #004763;
+    border-color: #004758;
+    background-image: -webkit-linear-gradient(top, #004763 0%, #346281 100%);
+    background-image: -o-linear-gradient(top, #004763 0%, #346281 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#004763), to(#346281));
+    background-image: linear-gradient(to bottom, #346281 0%, #004763 100%);
+    background-repeat: repeat-x;
+}
+
+.navbar-inverse .navbar-text {
+    color: #babbbc;
+}
+
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #f0f0f0;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #83b3d8;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    border-color: #83b3d8;
+    color: #83b3d8;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-link {
+    color: #babbbc;
+}
+
+.navbar-inverse .btn-link {
+    color: #babbbc;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: transparent;
+}
+
+.navbar-nav-main > li a {
+    font-size: 13px;
+    line-height: 46px;
+}
+
+.navbar-nav-main > li > a {
+    height: 85px;
+}
+
+.navbar-nav-main > li > a > span {
+    display: block;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.dropdown-menu {
+    background-color: rgba(1, 87, 121, 0.95);
+}
+
+.dropdown-menu .divider {
+    background-color: #516e7f;
+    margin: 0;
+}
+
+.input-group-addon {
+    background-color: transparent;
+    border: none;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9,
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9,
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9,
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff !important;
+    padding: 7px 0 7px 15px;
+}
+

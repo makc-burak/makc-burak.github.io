@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Система контроля и планирования работ в области дорожной инфраструктуры</title>
+
+    <!-- Custom styles for this template -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/all_changes.css" rel="stylesheet">
+
+    <!--[if gte IE 9]>
+    <link href="css/ie9.css" rel="stylesheet">
+    <![endif]-->
+</head>
+<body class="login-page">
+<nav class="navbar navbar-login navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand">
+                <img class="navbar-brand-logo" src="img/gerb.png" alt=""/>
+                <span class="navbar-brand-title">Система контроля и планирования работ в области дорожной инфраструктуры</span>
+            </a>
+        </div>
+    </div>
+</nav>
+
+<div id="myProgress">
+    <div id="myBar"></div>
+</div>
+
+<div class="panel panel-default panel-redirects">
+    <div class="panel-heading">
+        <div class="panel-heading-row">
+            <h3 class="panel-title"> Уважаемые пользователи СКПДИ!</h3>
+        </div>
+    </div>
+    <div class="panel-body"></p>
+        Уведомляем Вас, что с 22.05.2017 доступ в СКПДИ будет осуществляться <b> по новому адресу:
+            <a class="color-wh" href="http://skpdi.mosreg.ru">http://skpdi.mosreg.ru</a></b>
+        <br> Для доступа используйте ранее предоставленные логин и пароль.
+        <br> По всем вопросам просьба обращаться по телефону горячей линии поддержки 8 (499) 753-98-25
+        или по почте <a class="color-wh" href="mailto:skpdi_support@fors.ru»">skpdi_support@fors.ru </a>
+    </div>
+</div>
+
+
+<script language="JavaScript" type="text/javascript">
+    function redirects(){
+        location="http://skpdi.mosreg.ru";
+    }
+    setTimeout( 'redirects()', 5000);
+</script>
+
+<script>
+    function move() {
+        var elem = document.getElementById("myBar");
+        var width = 1;
+        var id = setInterval(frame, 45);
+        function frame() {
+            if (width >= 100) {
+                clearInterval(id);
+            } else {
+                width++;
+                elem.style.width = width + '%';
+            }
+        }
+    }
+</script>
+
+<script type="text/javascript">move()</script>
+
+
+</body>
+</html>

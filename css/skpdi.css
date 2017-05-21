@@ -1,0 +1,116 @@
+body.login-page {
+    background: url(../img/bg.jpg) center no-repeat #222222;
+    background-size: cover
+}
+
+.navbar-system-sub-links {
+    display: none;
+    color: #babbbc;
+    font-size: 12px;
+    position: absolute;
+    top: 40px;
+    left: 100%;
+    padding: 20px;
+    margin: 0;
+    list-style: none;
+    background-color: rgba(1, 87, 121, 0.95);
+}
+
+.rp-item {
+    width: 119%;
+}
+
+.rp-item:hover .navbar-system-sub-links {
+    display: block;
+}
+
+.tab-hdr h4 .tab-hdr-label {
+    color: #3e4450;
+}
+
+/**/
+.navbar-brand .navbar-brand-logo {
+    float: left;
+}
+
+.navbar-brand .navbar-brand-title {
+    float: left;
+    margin-top: 19px;
+    width: 300px;
+    font-family: 'RobotoCondensed', sans-serif;
+    font-size: 16px;
+}
+
+
+.color-wh{
+    color: #fff;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: #ddd;
+    position: fixed;
+}
+
+#myBar {
+    width: 1%;
+    height: 5px;
+    background-color: #4CAF50;
+    position: relative;
+}
+
+.panel.panel-redirects {
+    background: rgba(93, 116, 142, 0.85) none repeat scroll 0 0;
+    width: 460px;
+    margin: 10% auto 20px auto;
+}
+
+.panel.panel-redirects ul.feedbackPanel {
+    color: #fefff0;
+}
+
+.panel.panel-redirects .panel-heading {
+    box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.1);
+    background: #004763;
+    border-color: #004758;
+    color: #fff;
+    height: 40px;
+    line-height: 20px;
+    padding: 10px 0 10px 10px;
+}
+
+.panel.panel-redirects .panel-heading .panel-title {
+    font-size: 15px;
+    margin-top: 3px;
+    font-weight: normal;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.panel.panel-redirects .panel-heading,
+.panel.panel-redirects .panel-body {
+    border: none;
+}
+
+.panel.panel-redirects .panel-body {
+    padding: 15px 25px 25px;
+}
+
+.panel.panel-redirects .panel-body .form-control {
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 16px;
+    background: #fff;
+    font-style: normal;
+    color: #000;
+    border: 1px solid #CCD2D6;
+    border-radius: 0;
+}
+
+.panel.panel-redirects .panel-body {
+    color: #fff;
+}
+
+.hidden-container {
+    display: none;
+}
